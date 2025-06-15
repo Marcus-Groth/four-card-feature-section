@@ -1,0 +1,33 @@
+// Variables
+$card-width: 20rem;
+$card-background-color: hsl(0, 0%, 100%);
+$grey-dark-color: hsl(234, 12%, 34%);
+$grey-light-color: hsl(212, 6%, 44%);
+$semibold-weight: 600;
+
+.card {
+  padding: 1em;
+  background-color:$card-background-color;
+  box-shadow: 0 8px 8px -4px rgb(0 0 0 / 0.2);
+
+  .card-title {
+    font-weight: $semibold-weight;
+    color: $grey-dark-color;
+  }
+
+  p {
+    margin-bottom: 2.5rem;
+    font-size: 15px;
+    color: $grey-light-color;
+  }
+
+  img {
+    float: right;
+  }
+}
+
+@media (min-width:1200px) {
+  p {
+    font-size: 1rem;
+  }
+}

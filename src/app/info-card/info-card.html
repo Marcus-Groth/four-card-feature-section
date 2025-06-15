@@ -1,0 +1,9 @@
+<mat-card [style.border-top]="'6px solid' + ' ' + color" class="card card-1" appearance="raised">
+  <mat-card-header>
+    <mat-card-title class="card-title">{{ title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="card-content">
+    <p>{{ bodyText }}</p>
+    <img mat-card-sm-image [src]="iconUrl" alt="calculator icon">
+  </mat-card-content>
+</mat-card>
